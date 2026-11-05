@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rachelcodes-star.github.io/rachexora/sitemap.xml
