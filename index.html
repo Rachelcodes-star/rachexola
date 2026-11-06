@@ -549,4 +549,80 @@ document.getElementById('contactForm').addEventListener('submit',function(event)
  window.location.href='mailto:uwikundarachel8@gmail.com?subject='+subject+'&body='+body;
 });
 </script>
+  <section id="visitor-questions" class="visitor-section">
+  <h2>💎 Visitor Questions & Answers</h2>
+  <p>Explore important questions about minerals, technology and responsible mining.</p>
+
+  <div class="visitor-question">
+    <h3>How can we use mineral resources to support technology and economic development while reducing environmental damage?</h3>
+
+    <p>Minerals such as lithium, cobalt, copper, gold and tin are important for modern technology and economic growth.</p>
+
+    <h4>Possible Solutions</h4>
+    <ul>
+      <li>Educate people about different minerals and their uses.</li>
+      <li>Encourage responsible and environmentally friendly mining.</li>
+      <li>Recycle electronic devices to reduce the demand for newly mined minerals.</li>
+      <li>Protect forests, rivers and land around mining areas.</li>
+      <li>Follow mining safety rules and environmental regulations.</li>
+      <li>Support communities living near mining areas.</li>
+    </ul>
+
+    <h4>Conclusion</h4>
+    <p>Mineral resources can support technology and economic development when they are managed responsibly. Protecting people's health and the environment should always be a priority.</p>
+  </div>
+
+  <div class="visitor-form">
+    <h3>Ask Us a Question</h3>
+    <p>Have a question about minerals or mining? Share it with us!</p>
+
+    <form action="mailto:uwikundarachel8@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="Visitor Name" placeholder="Your name" required>
+      <input type="email" name="Visitor Email" placeholder="Your email" required>
+      <textarea name="Question" placeholder="Write your question here..." required></textarea>
+      <button type="submit">Submit Question</button>
+    </form>
+  </div>
+</section>
+
+<style>
+.visitor-section {
+  padding: 45px 20px;
+  margin: 30px auto;
+  max-width: 1000px;
+  color: #174d3b;
+}
+.visitor-section h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.visitor-question, .visitor-form {
+  background: #f1f7ee;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+.visitor-section li {
+  margin: 10px 0;
+}
+.visitor-form input, .visitor-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  margin: 10px 0;
+  border: 1px solid #b5cbb8;
+  border-radius: 8px;
+}
+.visitor-form textarea {
+  min-height: 120px;
+}
+.visitor-form button {
+  background: #174d3b;
+  color: white;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+</style>
 </body></html>
